@@ -19,27 +19,27 @@ const ProjectCard = ({ title, description, tags, link }) => (
 export default function Portfolio() {
   const projects = [
     {
-      title: "MedFusion (AI Clinical Co-Pilot)",
+      title: "MedFusion (AI Clinical Scribe)",
       description: "AI-Powered Clinical Scribe and disease analysis system. Features voice-to-text summarization (Whisper) and X-ray analysis (ViT-DistilGPT2) for report generation.",
-      tags: ["DeepSeek", "LangChain", "PyTorch", "OpenCV"],
+      tags: ["DeepSeek", "LangChain", "PyTorch", "OpenCV", "Whisper", "ViT", "DistilGPT2", "Multi-Agent Systems"],
       link: "#"
     },
     {
       title: "TripSplit",
       description: "Full-stack mobile app for group travel expense management. Implements a Debt Simplification Algorithm to minimize transaction settlements.",
-      tags: ["Flutter", "Firebase", "Algorithms"],
+      tags: ["Flutter", "Firebase", "Algorithms", "UI/UX Design", "Full-Stack"],
       link: "#"
     },
     {
       title: "Sentiment Analysis Dashboard",
       description: "Real-time visualization tool powered by Gemini API to categorize and analyze user sentiments across various data inputs.",
-      tags: ["React", "Gemini API", "Data Viz"],
+      tags: ["Python","Streamlit","MongoDB", "Gemini API","Transformer", "Data Viz", "Real-Time Processing", "Dashboard"],
       link: "#"
     },
     {
       title: "Rainfall Prediction Enhancement",
       description: "Research improving prediction accuracy by 3-8% using SMOTE and Machine Learning. Published in IEEE 2024.",
-      tags: ["Python", "SMOTE", "Scikit-learn"],
+      tags: ["Python", "SMOTE", "Scikit-learn", "Data Preprocessing", "Machine Learning"],
       link: "#"
     }
   ];

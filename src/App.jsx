@@ -98,6 +98,32 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+      {/* About Section */}
+<section className="max-w-4xl mx-auto px-6 py-16 border-t border-slate-800">
+  <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
+    <BrainCircuit className="text-blue-400" /> About Me
+  </h2>
+  <div className="space-y-4 text-slate-300 leading-relaxed text-lg">
+    <p>
+      I am a final-year Computer Science student at Amrita Vishwa Vidyapeetham, 
+      where I maintain an 8.01 CGPA and specialize in Artificial Intelligence. 
+      My work focuses on building intelligent systems that solve real-world 
+      complexities—ranging from clinical diagnostics to financial optimization.
+    </p>
+    <p>
+      My technical journey is defined by projects like <strong className="text-blue-400">MedFusion</strong>, 
+      an AI Clinical Co-Pilot designed to streamline medical workflows using 
+      multi-agent systems and multimodal AI. I also enjoy tackling full-stack 
+      challenges like <strong className="text-emerald-400">TripSplit</strong>, 
+      where I blended algorithmic precision with intuitive UI/UX design.
+    </p>
+    <p>
+      With a published IEEE research paper and certifications in AWS and Computer 
+      Vision, I combine a strong theoretical foundation with hands-on engineering 
+      to build the next generation of impactful software.
+    </p>
+  </div>
+</section>
 
       <footer className="py-12 text-center text-slate-500 text-sm">
         © 2026 Himanshu Yadav • Built with React & Tailwind
